@@ -1,0 +1,14 @@
+users = []
+
+def add_user(name):
+    if name not in users:
+        users.append(name)
+        print(f"{name} ты с нами.")
+    else:
+        print(f"мне такое не нравится  {name} придумай жругое.")
+
+def check_user(name):
+    if name in users:
+        print(f"урааааа  {name} ты найден.")
+    else:
+        print(f"ты кто {name} м?")
